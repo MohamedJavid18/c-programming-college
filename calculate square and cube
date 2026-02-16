@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int a,sq,cub;
+    scanf("%d",&a);
+sq=a*a;
+cub=a*a*a;
+printf("Square=%d\nCube=%d",sq,cub);
+return 0;
+}
